@@ -10,13 +10,13 @@ It uses a Bidirectional GRU (Gated Recurrent Unit) model trained on the IMDB dat
 https://yourname.streamlit.app
 
 # Tech Stack
-Python
-TensorFlow / Keras
-Natural Language Processing (NLP)
-Streamlit
-BeautifulSoup (Text Cleaning)
-Scikit-learn
-Joblib
+1. Python
+2. TensorFlow / Keras
+3. Natural Language Processing (NLP)
+4. Streamlit
+5. BeautifulSoup (Text Cleaning)
+6. Scikit-learn
+7. Joblib
 
 # How It Works
 1. Text Preprocessing
