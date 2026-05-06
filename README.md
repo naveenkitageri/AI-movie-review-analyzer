@@ -7,7 +7,7 @@ It uses a Bidirectional GRU (Gated Recurrent Unit) model trained on the IMDB dat
 
 # 🚀 Live Demo
 
-https://yourname.streamlit.app
+https://naveenkitageri-ai-movie-review-analyzer.streamlit.app/
 
 # Tech Stack
 1. Python
