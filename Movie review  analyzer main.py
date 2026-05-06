@@ -107,7 +107,7 @@ def main():
     dump(tokenizer, tokenizer.joblib')
     print('Tokenizer saved')
 
-    bidi_gru_model.save(bidi_gru_model.h5')
+    bidi_gru_model.save('bidirectional_gru_model.h5')
     print('Model saved')    
 
 if __name__ == '__main__':
