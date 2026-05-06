@@ -15,7 +15,7 @@ MODEL_PATH = os.path.join(BASE_DIR, "bidirectional_gru_model.h5")
 TOKENIZER_PATH = os.path.join(BASE_DIR, "tokenizer.joblib")
 MAX_LENGTH = 200
 
-model = tf.keras.models.load_model(MODEL_PATH)
+model = tf.keras.models.load_model(MODEL_PATH, compile=False)
 tokenizer = load(TOKENIZER_PATH)
 
 # clean text function 
