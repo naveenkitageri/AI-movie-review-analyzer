@@ -104,10 +104,10 @@ def main():
 
     print('Model Trained.')
 
-    dump(tokenizer, r'C:\Users\hp5cd\Documents\deep learning\Sentimental analysis\tokenizer.joblib')
+    dump(tokenizer, tokenizer.joblib')
     print('Tokenizer saved')
 
-    bidi_gru_model.save(r'C:\Users\hp5cd\Documents\deep learning\Sentimental analysis\gru_model.h5')
+    bidi_gru_model.save(bidi_gru_model.h5')
     print('Model saved')    
 
 if __name__ == '__main__':
