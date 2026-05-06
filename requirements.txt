@@ -1,7 +1,5 @@
-download this libraries before running :
-
-1. streamlit
-2. tensorflow
-3. beautifulsoup4
-4. scikit-learn
-5. joblib
+streamlit
+tensorflow
+beautifulsoup4
+scikit-learn
+joblib
