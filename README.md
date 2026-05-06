@@ -1,5 +1,5 @@
-🎬 Movie Review Sentiment Analysis (Deep Learning + Streamlit)
-📌 Project Overview
+**🎬 Movie Review Sentiment Analysis (Deep Learning + Streamlit)**
+**📌 Project Overview**
 
 This project is an end-to-end Sentiment Analysis application that classifies movie reviews as Positive 😊 or Negative 😞 using a Deep Learning model.
 
