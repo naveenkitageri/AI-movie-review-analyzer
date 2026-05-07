@@ -49,7 +49,11 @@ if st.button('Predict'):
         # Prediction
         pred_prob = model.predict(padded)[0][0]
 
-        if pred_prob > 0.5:
+        if pred_prob > 0.6:
             st.success(f'Positive Review 😊 {pred_prob:.2f}')
+        elif pred_prob > 0.5:
+            st.info(f'Neutral Positive Review 😐 {pred_prob:.2f}')
+        elif pred_prob > 0.4:
+            st.warning(f'Neutral Negative Review 😐 {pred_prob:.2f}')
         else:
             st.error(f'Negative Review 😞 {pred_prob:.2f}')
