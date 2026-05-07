@@ -35,8 +35,10 @@ https://naveenkitageri-ai-movie-review-analyzer.streamlit.app/
 8. Prediction
    - Output probability
    - Classify:
-     > 0.5 → Positive
-     < 0.5 → Negative
+     > 0.6 → Positive
+     > 0.5 → Neutral Positive
+     > 0.4 → Neutral Negative
+     < 0.4 → Negative
      
 # Model Details
 - Model: Bidirectional GRU
