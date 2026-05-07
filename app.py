@@ -34,7 +34,7 @@ def clean_text(text):
 
 # UI
 
-st.title('AI Movie Review Analyzer')
+st.title('🎬AI Movie Review Analyzer')
 
 user_input = st.text_area('Enter your movie review :')
 
